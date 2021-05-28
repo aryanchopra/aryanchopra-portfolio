@@ -12,18 +12,20 @@
     <nav class="navigation container">
       <div class="nav-brand">aryan chopra</div>
       <ul class="list-non-bullet nav-pills">
-        <li class="list-item-inline">
-          <a class="link link-active" href="/">home</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="projects.html">projects</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="/">blogs</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="/">photography</a>
-        </li>
+        <div class="navlink">
+          <li class="list-item-inline">
+            <a class="link link-active" href="/">home</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="projects.html">projects</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="blogs.html">blogs</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="photography.html">photography</a>
+          </li>
+        </div>
       </ul>
     </nav>
     <header class="hero">
@@ -60,7 +62,12 @@
         <h1>projects</h1>
         <p>
           You can check my projects out here:
-          <a href="projects.html" class="link link-primary">projects</a>
+          <div class="mainlink">
+            <a href="projects.html" class="link link-primary"
+            >projects</a
+          >
+          </div>
+          
         </p>
       </div>
     </section>
@@ -68,8 +75,23 @@
       <div class="container container-center">
         <h1>blogs</h1>
         <p>I also like to write blogs on cool stuff. Check them out!</p>
-        <a href="blogs.html" class="link link-primary">read blogs</a>
+        <div class="mainlink">
+          <a href="blogs.html" class="link link-primary">read blogs</a>
+        </div>
       </div>
     </section>
+    <footer class="footer">
+      <div class="footer-header">
+        <h1> connect with me </h1>
+        <ul class="list-no-bullet">
+          <li class="list-item-inline"><a style="color: white" href="https://github.com/aryanchopra"><i class="fab fa-github"></i></a></li>
+          
+          <li class="list-item-inline"><a style="color: white" href="./projects.html"><i class="fab fa-twitter"></i></a></li>
+          
+          <li class="list-item-inline"><a style="color: white" href="https://www.linkedin.com/in/aryan-chopra-65008634/"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/e5e41367ad.js" crossorigin="anonymous"></script>
   </body>
 </html>
